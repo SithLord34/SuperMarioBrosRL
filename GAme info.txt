@@ -1,0 +1,9 @@
+we need to preprocess the game date before we use reinforcement learning, 
+there are mainly 2 preprocesing steps:-
+1) Greyscaling 
+2) framestacking (screen shot taken)
+as the color image has three times the many pixels to process and converting them into greyscale cuts down the data it needs to learn from 
+framestacking helps our AI have context by stacking consecutive frames we are giving our AI model memory, it will be able to see mario and 
+its enemy's movements
+
+for preprocessing :-
