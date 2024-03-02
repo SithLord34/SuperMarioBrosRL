@@ -6,4 +6,6 @@ as the color image has three times the many pixels to process and converting the
 framestacking helps our AI have context by stacking consecutive frames we are giving our AI model memory, it will be able to see mario and 
 its enemy's movements
 
-for preprocessing :-
+before preprocessing :-
+Libraries to install :-
+	pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio===0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
